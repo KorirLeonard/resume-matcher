@@ -1,14 +1,14 @@
 import json
 import anthropic
 
-client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
-
 
 def analyze_resume(resume_text: str, job_description: str) -> dict:
     """
     Send resume + job description to Claude and get back a structured analysis.
     Returns a dict with score, strengths, gaps, rewritten summary, and keywords.
     """
+    client = anthropic.Anthropic()  # Create client when function is called
+    
     prompt = f"""
 You are an expert resume coach and senior recruiter with 15 years of experience.
 
