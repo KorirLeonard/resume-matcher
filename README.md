@@ -5,6 +5,8 @@ identifies gaps, rewrites your summary, and surfaces ATS keywords.
 
 **Stack:** Python · FastAPI · Claude API · Stripe · pdfplumber
 
+🚀 **[Live Demo](https://web-production-9f8a0.up.railway.app)**
+
 ---
 
 ## Setup (Local)
@@ -147,11 +149,13 @@ resume-matcher/
 Once deployed, post these:
 
 **Reddit:**
+
 - r/resumes — "I built a tool that scores your resume against any job posting"
 - r/cscareerquestions — "How I built a resume AI in a weekend (and how to use it)"
 - r/side_project — share your launch
 
 **Twitter/X:**
+
 - Screenshot of a result page (blur the resume text)
 - "Built this in a weekend with FastAPI + Claude AI"
 
